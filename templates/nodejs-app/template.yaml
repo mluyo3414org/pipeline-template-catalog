@@ -19,6 +19,10 @@ parameters:
     type: string
     displayName: GCP Project
     defaultValue: core-workshop
+  - name: hostnameURL
+    type: string
+    displayName: HostName URL
+    defaultValue: staging.cb-sa.io
 multibranch:
   branchSource:
     github:
